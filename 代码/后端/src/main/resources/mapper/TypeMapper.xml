@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.mapper.TypeMapper">
+    <insert id="newtype">
+        insert into type(Typename,SortOrder,icon) values (#{typename},#{sortorder},#{icon})
+    </insert>
+
+    <update id="updataicon">
+        update type set icon=#{icon} where SortOrder=#{sortorder}
+    </update>
+
+    <delete id="deltype" parameterType="String">
+        delete from type where TypeID=#{typeid}
+    </delete>
+
+    <update id="renametype" parameterType="String">
+        update type set Typename=#{typename} where TypeID=#{typeid}
+    </update>
+
+    <update id="changeorder">
+        update type set SortOrder=#{sortorder} where TypeID=#{typeid}
+    </update>
+
+    <select id="gettype" resultType="com.example.demo.entity.Type">
+        select TypeID,Typename,SortOrder from type;
+    </select>
+
+    <select id="geticon" resultType="com.example.demo.entity.Type">
+        select icon from type where TypeID=#{typeid}
+    </select>
+
+    <select id="existorder" resultType="String">
+        select SortOrder from type where SortOrder=#{order}
+    </select>
+    <select id="existtid" resultType="String">
+        select TypeID from type where TypeID=#{tid}
+    </select>
+
+</mapper>

@@ -1,0 +1,28 @@
+spring:
+    devtools:
+        restart:
+            additional-paths: src/main/java
+            enabled: true
+    mvc:
+        pathmatch:
+            matching-strategy: ant_path_matcher
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/drug?useSSL=false
+        username: root
+        password: BKLbkl.123
+
+
+server:
+    port: 8081
+
+gear:
+    wenxin:
+        api-key:RRxthvHuqf5xp8aCyk2pTXRj
+        secret-key:9FzxIRraOe9862fNRBFMR6A6NXB9kzOO
+
+
+
+
+
+

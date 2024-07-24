@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/sy/sy",
+    "pages/HM-search/HM-search",
+    "pages/AI/ai",
+    "pages/search/search",
+    "pages/about/about/about",
+    "pages/address/address",
+    "pages/commodityinformation/commodityinformation/commodityinformation",
+    "pages/order/order",
+    "pages/Commodity column/index",
+    "pages/payment/payment",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/bigdata/bigdata",
+    "pages/remind_medicine/remind_medicine",
+    "pages/add_medicine_remind/add_medicine_remind",
+    "pages/medicine_detail/medicine_detail",
+    "pages/index/cart"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "？",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#d2f8ad"
+  },
+  "tabBar": {
+    "color": "#4d4c4c",
+    "selectedColor": "#20b067",
+    "borderStyle": "black",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "pagePath": "pages/sy/sy",
+        "iconPath": "static/首页.png",
+        "selectedIconPath": "static/首页(1).png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/Commodity column/index",
+        "iconPath": "static/商品.png",
+        "selectedIconPath": "static/商品(1).png",
+        "text": "商品"
+      },
+      {
+        "pagePath": "pages/AI/ai",
+        "iconPath": "static/表单.png",
+        "selectedIconPath": "static/表单(1).png",
+        "text": "问诊"
+      },
+      {
+        "pagePath": "pages/index/cart",
+        "iconPath": "static/购物车.png",
+        "selectedIconPath": "static/购物车(1).png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "iconPath": "static/会员登录.png",
+        "selectedIconPath": "static/会员登录(1).png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

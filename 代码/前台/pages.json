@@ -1,0 +1,221 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/sy/sy",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom",
+			
+				"enablePullDownRefresh": false
+				
+			}
+		},	
+		{
+			"path": "pages/HM-search/HM-search",
+			"style": {
+				"navigationBarTitleText": "主页",
+		"navigationStyle": "custom",
+		"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/AI/ai",
+			"style": {
+				"navigationBarTitleText": "AI问诊",
+			
+			"enablePullDownRefresh": false
+			}
+		},
+		// {
+		// 	"path": "pages/index/index",
+		// 	"style": {
+		// 		"navigationBarTitleText": "购物车",
+		
+		// "enablePullDownRefresh": false
+		// 	}
+		// },
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "主页"
+			}
+			
+		},
+		{
+            "path" : "pages/about/about/about",
+            "style" :                                                                                    
+            {
+               "navigationBarTitleText": "？页"
+        
+             
+            }
+            
+        },
+       {
+           "path" : "pages/address/address",
+           "style" :                                                                                    
+           {
+              "navigationBarTitleText": "地址选择",
+     
+     "enablePullDownRefresh": false
+           }
+           
+       },
+        {
+            "path" : "pages/commodityinformation/commodityinformation/commodityinformation",
+            "style" :                                                                                    
+            {"navigationStyle": "custom",
+				"navigationBarTitleText": "？页",
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/order/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path": "pages/Commodity column/index",
+		    "style" :                                                                                    
+		    {
+				"navigationBarTitleText": "商品栏",
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+		    }
+		    
+		},
+		{
+			"path":"pages/payment/payment",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+			
+		}
+        // ,{
+        //     "path" : "pages/index/1/1",
+        //     "style" :                                                                                    
+        //     {
+        //         "navigationBarTitleText": "",
+        //         "enablePullDownRefresh": false
+        //     }
+            
+        // }
+		,
+		{
+			"path": "pages/login/login",
+			"style" : {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+		    "path" : "pages/register/register",
+		    "style" : {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		
+		{
+			"path": "pages/bigdata/bigdata",
+			"style": {
+				"navigationBarTitleText": "大数据分析"
+			}
+		},
+		{
+			"path" : "pages/remind_medicine/remind_medicine",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/add_medicine_remind/add_medicine_remind",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/medicine_detail/medicine_detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		}
+        ,{
+            "path" : "pages/index/cart",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "购物车",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "？",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#d2f8ad"
+	},
+	"tabBar": {
+		"color": "#4d4c4c",
+		"selectedColor": "#20b067",
+		"borderStyle": "black",
+		"backgroundColor": "white",
+		"list": [
+		{
+			"pagePath": "pages/sy/sy",
+			"iconPath": "static/首页.png",
+			"selectedIconPath": "static/首页(1).png",
+			"text": "首页"
+		},{
+			"pagePath": "pages/Commodity column/index",
+			"iconPath": "static/商品.png",
+			"selectedIconPath": "static/商品(1).png",
+			"text": "商品"
+		},
+		{
+			"pagePath": "pages/AI/ai",
+			"iconPath": "static/表单.png",
+			"selectedIconPath": "static/表单(1).png",
+			"text": "问诊"
+		},
+		
+		{
+			"pagePath": "pages/index/cart",
+			"iconPath": "static/购物车.png",
+			"selectedIconPath": "static/购物车(1).png",
+			"text": "购物车"
+		}, 
+		
+		// {
+		// 	"pagePath": "pages/commodityinformation/commodityinformation/commodityinformation",
+		// 	"iconPath": "static/表单.png",
+		// 	"selectedIconPath": "static/表单(1).png",
+		// 	"text": "更多"
+		// },
+		
+		
+		{
+			"pagePath": "pages/search/search",
+			"iconPath": "static/会员登录.png",
+			"selectedIconPath": "static/会员登录(1).png",
+			"text": "我的"
+		}
+		
+		]
+	},
+
+	
+	
+	"uniIdRouter": {}
+}

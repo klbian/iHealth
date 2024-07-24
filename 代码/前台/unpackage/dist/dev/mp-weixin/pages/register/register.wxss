@@ -1,0 +1,87 @@
+
+.sun-logo-box.data-v-891c2434 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 750rpx;
+	height: 300rpx;
+}
+.sun-icon-img.data-v-891c2434 {
+	width: 120rpx;
+	height: 120rpx;
+}
+.sun-logo.data-v-891c2434 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 180rpx;
+	height: 180rpx;
+	border-radius: 15rpx;
+	background-color: #009245;
+	box-shadow: 0rpx 0rpx 30rpx rgba(0, 146, 69, 0.5);
+}
+.close-icon.data-v-891c2434 {
+	width: 36rpx;
+	height: 34rpx;
+}
+.sun-login-box.data-v-891c2434 {
+	padding: 20rpx 60rpx;
+}
+.sun-label.data-v-891c2434 {
+	display: flex;
+	align-items: center;
+}
+.label-text.data-v-891c2434 {
+	margin-left: 16rpx;
+	font-weight: 500;
+	color: #272e2d;
+	font-size: 30rpx;
+}
+.sun-input-box.data-v-891c2434 {
+	display: flex;
+	align-items: center;
+	height: 100rpx;
+	border-bottom: 1rpx solid #eee;
+	padding: 0px 10rpx;
+}
+.sun-input-box input.data-v-891c2434 {
+	flex: 1;
+}
+.placeholder-class.data-v-891c2434 {
+	font-size: 30rpx;
+	color: #C0C0C0;
+}
+.sun-tip.data-v-891c2434 {
+	display: flex;
+	justify-content: space-between;
+	padding: 0rpx 68rpx;
+}
+.sun-tip-text.data-v-891c2434 {
+	color: #009245;
+}
+.login-btn-box.data-v-891c2434 {
+	position: absolute;
+	bottom: 129rpx;
+	left: 0;
+	width: 750rpx;
+	padding: 50rpx 68rpx 0rpx;
+}
+.login-btn.data-v-891c2434 {
+	height: 82rpx;
+	border-radius: 41rpx;
+	background-color: #009245;
+	box-shadow: -1px 12px 11px 0px rgba(16, 170, 157, 0.4);
+	text-align: center;
+	line-height: 82rpx;
+	font-size: 36rpx;
+	font-weight: 500;
+	color: #fff;
+}
+.code-text.data-v-891c2434 {
+	font-size: 28rpx;
+	color: #009245;
+}
+.gray.data-v-891c2434 {
+	color: #C0C0C0;
+}
+

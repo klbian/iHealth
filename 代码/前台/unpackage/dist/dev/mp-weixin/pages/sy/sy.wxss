@@ -1,0 +1,324 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.ml-6-5.data-v-e08daaf4 {
+  margin-left: 13.34rpx;
+}
+.ml-13-5.data-v-e08daaf4 {
+  margin-left: 27.34rpx;
+}
+.mt-25-5.data-v-e08daaf4 {
+  margin-top: 51.34rpx;
+}
+.ml-14-5.data-v-e08daaf4 {
+  margin-left: 29.34rpx;
+}
+.mt-17-5.data-v-e08daaf4 {
+  margin-top: 35.34rpx;
+  margin-bottom: 20rpx;
+}
+.mt-12-5.data-v-e08daaf4 {
+  margin-top: 25rpx;
+  margin-left: -15rpx;
+  margin-right: 15rpx;
+}
+.mt-5-5.data-v-e08daaf4 {
+  margin-top: 11.34rpx;
+}
+.mt-8-5.data-v-e08daaf4 {
+  margin-top: 17.34rpx;
+}
+.page.data-v-e08daaf4 {
+  background-color: #eff5f3;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+  padding-top: 60rpx;
+}
+.page .group.data-v-e08daaf4 {
+  padding: 27.34rpx 34.66rpx 0 36.66rpx;
+  height: 274.66rpx;
+}
+.page .group .group_4.data-v-e08daaf4 {
+  margin-top: 209rpx;
+  -webkit-transform: translateY(-25rpx);
+          transform: translateY(-25rpx);
+}
+.page .group .group_4 .button.data-v-e08daaf4 {
+  padding: 0 12.66rpx 11.34rpx;
+  background-color: #fee5de;
+  border-radius: 20rpx;
+  width: 133.34rpx;
+  height: 38rpx;
+}
+.page .group .group_4 .button .text_4.data-v-e08daaf4 {
+  color: #fb1b1b;
+  line-height: 19.34rpx;
+}
+.page .group .group_4 .button .image_7.data-v-e08daaf4 {
+  width: 20rpx;
+  height: 26.66rpx;
+}
+.page .group .group_4 .button_2.data-v-e08daaf4 {
+  padding-bottom: 9.34rpx;
+  background-color: #ffffff99;
+  border-radius: 20rpx;
+  width: 120rpx;
+  height: 34rpx;
+}
+.page .group .group_4 .button_2 .text_5.data-v-e08daaf4 {
+  color: #010101;
+}
+.page .group .group_4 .text-wrapper_2.data-v-e08daaf4 {
+  padding-bottom: 9.34rpx;
+  background-color: #ffffff99;
+  border-radius: 20rpx;
+  width: 100rpx;
+  height: 34rpx;
+}
+.page .group .group_4 .font_2.data-v-e08daaf4 {
+  font-size: 21.34rpx;
+  font-family: Adobe Heiti Std;
+  line-height: 20rpx;
+  margin-top: 5rpx;
+  color: #000000;
+}
+.page .group .group_4 .button_1.data-v-e08daaf4 {
+  padding-bottom: 9.34rpx;
+  background-color: #ffffff99;
+  border-radius: 20rpx;
+  width: 120rpx;
+  height: 34rpx;
+}
+.page .group .group_4 .button_1 .text_6.data-v-e08daaf4 {
+  line-height: 20.66rpx;
+}
+.page .group .group_4 .button_4.data-v-e08daaf4 {
+  padding-bottom: 10.66rpx;
+  background-color: #ffffff99;
+  border-radius: 20rpx;
+  width: 120rpx;
+  height: 34rpx;
+}
+.page .group .group_2.data-v-e08daaf4 {
+  margin-left: 12rpx;
+  margin-top: -247.34rpx;
+  padding-left: 8rpx;
+  padding-bottom: 12rpx;
+}
+.page .group .group_2 .image_2.data-v-e08daaf4 {
+  width: 46.66rpx;
+  height: 53.34rpx;
+}
+.page .group .group_2 .text.data-v-e08daaf4 {
+  color: #009254;
+  font-size: 52.66rpx;
+  font-family: Arial Rounded MT Bold;
+  line-height: 39.34rpx;
+}
+.page .group .group_2 .image.data-v-e08daaf4 {
+  width: 43.34rpx;
+  height: 50rpx;
+}
+.page .group .group_2 .text_2.data-v-e08daaf4 {
+  margin-left: 14.66rpx;
+  color: #000000;
+  font-size: 40.66rpx;
+  font-family: Adobe Heiti Std;
+  line-height: 37.34rpx;
+}
+.page .group .group_2 .image_3.data-v-e08daaf4 {
+  width: 16rpx;
+  height: 34rpx;
+}
+.page .group .section.data-v-e08daaf4 {
+  margin-left: 12rpx;
+  padding: 28rpx 31.34rpx 28.66rpx;
+  background-color: #ffffff;
+  border-radius: 26.66rpx;
+}
+.page .group .section .image_6.data-v-e08daaf4 {
+  width: 40rpx;
+  height: 40rpx;
+}
+.page .group .section .text_3.data-v-e08daaf4 {
+  color: #acacac;
+  font-size: 32rpx;
+  font-family: Adobe Heiti Std;
+  line-height: 30.66rpx;
+}
+.page .group .section .group_3.data-v-e08daaf4 {
+  margin-right: 7.34rpx;
+}
+.page .group .section .group_3 .image_4.data-v-e08daaf4 {
+  width: 46.66rpx;
+  height: 43.34rpx;
+}
+.page .group .section .group_3 .image_5.data-v-e08daaf4 {
+  width: 43.34rpx;
+  height: 43.34rpx;
+}
+.page .simple-linear.data-v-e08daaf4 {
+  background: linear-gradient(45deg, #04a360, 30%, #eef5f2);
+}
+.page .section_2.data-v-e08daaf4 {
+  margin-left: 40rpx;
+  margin-right: 43rpx;
+  padding: 33rpx 28rpx 18rpx;
+  background-color: #f1ae67;
+  border-radius: 30rpx;
+  -webkit-transform: translateY(-10rpx);
+          transform: translateY(-10rpx);
+}
+.page .section_2 .image_8.data-v-e08daaf4 {
+  margin-left: 5.34rpx;
+  margin-right: 5.34rpx;
+  width: 600rpx;
+  height: 391.34rpx;
+}
+.page .section_2 .text_7.data-v-e08daaf4 {
+  color: #eff5f3;
+}
+.page .section_2 .text_8.data-v-e08daaf4 {
+  margin-right: 21.34rpx;
+  color: #eff5f3;
+  line-height: 19.34rpx;
+}
+.page .font.data-v-e08daaf4 {
+  font-size: 20rpx;
+  font-family: Adobe Heiti Std;
+  line-height: 20rpx;
+}
+.page .group_5.data-v-e08daaf4 {
+  margin-top: 41.34rpx;
+}
+.page .group_5 .equal-division.data-v-e08daaf4 {
+  margin-left: 35rpx;
+  margin-right: 43rpx;
+  -webkit-transform: translateY(-10rpx);
+          transform: translateY(-10rpx);
+}
+.page .group_5 .equal-division .image_9.data-v-e08daaf4 {
+  flex: 1 1 326.66rpx;
+}
+.page .group_5 .equal-division .image_1.data-v-e08daaf4 {
+  height: 134rpx;
+}
+.page .group_5 .equal-division .image_17.data-v-e08daaf4 {
+  height: 133.34rpx;
+}
+.page .group_5 .section_3.data-v-e08daaf4 {
+  margin-left: 32.66rpx;
+  margin-right: 50rpx;
+  padding: 30.66rpx 3.34rpx 38.66rpx 35.34rpx;
+  background-color: #ffffff;
+  box-shadow: 9.2rpx 7.72rpx 4.74rpx 0.58rpx #99a19eb8, inset 1.54rpx 1.28rpx 4.66rpx #00000059;
+  border-radius: 26.66rpx;
+}
+.page .group_5 .section_3 .text_9.data-v-e08daaf4 {
+  margin-left: 21.34rpx;
+  color: #000000;
+  line-height: 40.66rpx;
+}
+.page .group_5 .section_3 .image_12.data-v-e08daaf4 {
+  flex: 1 1 198.66rpx;
+  height: 210.66rpx;
+}
+.page .group_5 .section_3 .group_6.data-v-e08daaf4 {
+  margin-left: 12.66rpx;
+  flex: 1 1 198.66rpx;
+}
+.page .group_5 .section_3 .group_6 .image_10.data-v-e08daaf4 {
+  width: 198.66rpx;
+  height: 101.34rpx;
+}
+.page .group_5 .section_3 .group_6 .image_13.data-v-e08daaf4 {
+  width: 198.66rpx;
+  height: 100.66rpx;
+}
+.page .group_5 .section_3 .group_7.data-v-e08daaf4 {
+  margin-left: 18.66rpx;
+  padding-top: 113.34rpx;
+  flex: 1 1 198.66rpx;
+}
+.page .group_5 .section_3 .group_7 .image_14.data-v-e08daaf4 {
+  width: 198.66rpx;
+  height: 100rpx;
+}
+.page .group_5 .section_3 .group_7 .image_11.data-v-e08daaf4 {
+  width: 200rpx;
+  height: 150.66rpx;
+}
+.page .group_5 .section_3 .group_7 .pos.data-v-e08daaf4 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.page .group_5 .section_5.data-v-e08daaf4 {
+  background-color: #eff5f3;
+}
+.page .group_5 .section_5 .section_4.data-v-e08daaf4 {
+  flex: 1 1 150rpx;
+}
+.page .group_5 .section_5 .section_4 .image_15.data-v-e08daaf4 {
+  width: 64rpx;
+  height: 64rpx;
+}
+.page .group_5 .section_5 .section_4 .font_4.data-v-e08daaf4 {
+  font-size: 26.66rpx;
+  font-family: Adobe Heiti Std;
+  line-height: 24.66rpx;
+  color: #4d4c4c;
+}
+.page .group_5 .section_5 .section_4 .text_10.data-v-e08daaf4 {
+  color: #1aaf64;
+}
+.page .group_5 .section_5 .section_4 .text_11.data-v-e08daaf4 {
+  line-height: 26rpx;
+}
+.page .group_5 .section_5 .section_1.data-v-e08daaf4 {
+  padding: 42rpx 0 51.34rpx;
+  background-color: #ffffff;
+  height: 198.66rpx;
+}
+.page .group_5 .section_5 .equal-division-item_3.data-v-e08daaf4 {
+  padding: 43.32rpx 0 51.34rpx;
+  background-color: #ffffff;
+  height: 200rpx;
+}
+.page .group_5 .section_5 .section_7.data-v-e08daaf4 {
+  padding: 43.32rpx 0 50.66rpx;
+  background-color: #ffffff;
+  height: 200rpx;
+}
+.page .font_3.data-v-e08daaf4 {
+  font-size: 43.34rpx;
+  font-family: Adobe Heiti Std;
+  line-height: 40rpx;
+}
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.mapper.UserMapper">
+
+    <resultMap id="buyer" type="com.example.demo.entity.Buyer">
+        <result column="BID" property="ID"/>
+        <result column="Bavatar" property="icon"/>
+    </resultMap>
+    <resultMap id="seller" type="com.example.demo.entity.User">
+        <result column="SID" property="ID"/>
+        <result column="Savatar" property="icon"/>
+    </resultMap>
+
+    <select id="getuse" resultType="com.example.demo.entity.Buyer" resultMap="buyer">
+        select BID,Bname,message,password,phone,city from buyer where phone=#{phone} and password=#{password}
+    </select>
+
+    <select id="getavatar" resultType="com.example.demo.entity.Buyer" resultMap="buyer">
+        select Bavatar from buyer where BID=#{bid}
+    </select>
+
+   <update id="changecity" parameterType="String">
+       update buyer set city=#{city} where BID=#{bid}
+   </update>
+
+    <update id="changemessage" parameterType="String">
+        update buyer set message=#{message} where BID=#{bid}
+    </update>
+
+    <update id="changepassword" parameterType="String">
+        update buyer set password=#{password} where BID=#{bid}
+    </update>
+
+    <update id="changephone" parameterType="String">
+        update buyer set phone=#{phone} where BID=#{bid}
+    </update>
+
+    <select id="getuserbyID" resultType="com.example.demo.entity.Buyer" resultMap="buyer">
+        select BID,Bname,message,password,phone,city from buyer where BID=#{BID}
+    </select>
+
+    <insert id="newuse" parameterType="String">
+        insert into buyer(phone,password) values (#{phone},#{password})
+    </insert>
+
+    <insert id="addarchives">
+        insert into archives(BID,chatresult,chattime) values (#{bid},#{chatresult},now())
+    </insert>
+
+    <insert id="addressee">
+        insert into addressee(BID,address,name,phone) values (#{bid},#{address},#{name},#{phone})
+    </insert>
+
+</mapper>

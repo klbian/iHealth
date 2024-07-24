@@ -1,0 +1,336 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.ml-5-5.data-v-4cedc0c6 {
+  margin-left: 11.34rpx;
+}
+.mt-5.data-v-4cedc0c6 {
+  margin-top: 10rpx;
+}
+.mt-9-5.data-v-4cedc0c6 {
+  margin-top: 19.34rpx;
+}
+.mt-9.data-v-4cedc0c6 {
+  margin-top: 18rpx;
+}
+.mt-31.data-v-4cedc0c6 {
+  margin-top: 62rpx;
+}
+.mt-14-5.data-v-4cedc0c6 {
+  margin-top: 29.34rpx;
+}
+.mt-7.data-v-4cedc0c6 {
+  margin-top: 14rpx;
+}
+.mt-10-5.data-v-4cedc0c6 {
+  margin-top: 21.34rpx;
+}
+.mt-11.data-v-4cedc0c6 {
+  margin-top: 22rpx;
+}
+.mt-21-5.data-v-4cedc0c6 {
+  margin-top: 43.34rpx;
+}
+.mt-7-5.data-v-4cedc0c6 {
+  margin-top: 15.34rpx;
+}
+.mt-5-5.data-v-4cedc0c6 {
+  margin-top: 11.34rpx;
+}
+.mt-8-5.data-v-4cedc0c6 {
+  margin-top: 17.34rpx;
+}
+.mt-6-5.data-v-4cedc0c6 {
+  margin-top: 13.34rpx;
+}
+.page.data-v-4cedc0c6 {
+  background-color: #eff5f3;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+  padding-bottom: 50rpx;
+}
+.page .section.data-v-4cedc0c6 {
+  padding: 60rpx 0 0;
+  background-color: #009254;
+  border-radius: 0rpx 0rpx 13.34rpx 26.66rpx;
+}
+.page .section .section_2.data-v-4cedc0c6 {
+  margin: 0 25.34rpx;
+  padding: 0 54.66rpx;
+  background-color: #ffffff;
+  border-radius: 33.34rpx;
+}
+.page .section .section_2 .group.data-v-4cedc0c6 {
+  padding-top: 32rpx;
+}
+.page .section .section_2 .group .image.data-v-4cedc0c6 {
+  width: 140rpx;
+  height: 140rpx;
+}
+.page .section .section_2 .group .group_2.data-v-4cedc0c6 {
+  margin-top: 39.34rpx;
+  padding: 0 9.34rpx 20.66rpx 26rpx;
+  border-bottom: solid 4rpx #9c9c9c;
+}
+.page .section .section_2 .group .group_2 .text.data-v-4cedc0c6 {
+  color: #000000;
+  font-size: 40rpx;
+  font-family: Adobe Heiti Std;
+  line-height: 32rpx;
+}
+.page .section .section_2 .group .group_2 .text_2.data-v-4cedc0c6 {
+  color: #999a99;
+  line-height: 22.66rpx;
+}
+.page .section .section_2 .equal-division.data-v-4cedc0c6 {
+  margin-left: 4rpx;
+  margin-right: 6.66rpx;
+}
+.page .section .section_2 .equal-division .group_4.data-v-4cedc0c6 {
+  flex: 1 1 144.88rpx;
+}
+.page .section .section_2 .equal-division .group_4 .font_2.data-v-4cedc0c6 {
+  font-size: 36.66rpx;
+  font-family: Adobe Heiti Std;
+  line-height: 28.66rpx;
+  color: #000000;
+}
+.page .section .section_2 .equal-division .group_4 .font_3.data-v-4cedc0c6 {
+  font-size: 23.34rpx;
+  font-family: Adobe Heiti Std;
+  line-height: 22rpx;
+  color: #999999;
+}
+.page .section .section_2 .equal-division .group_4 .text_3.data-v-4cedc0c6 {
+  font-size: 22.66rpx;
+  line-height: 21.34rpx;
+}
+.page .section .section_2 .equal-division .equal-division-item.data-v-4cedc0c6 {
+  padding: 10.66rpx 0;
+}
+.page .section .section_2 .group_3.data-v-4cedc0c6 {
+  padding-bottom: 7.34rpx;
+}
+.page .group_5.data-v-4cedc0c6 {
+  padding: 30rpx 19.34rpx 0;
+}
+.page .group_5 .section_3.data-v-4cedc0c6 {
+  margin-right: 4rpx;
+  padding: 43.34rpx 0 26rpx;
+  background-color: #ffffff;
+  border-radius: 46.66rpx;
+}
+.page .group_5 .section_3 .group_6.data-v-4cedc0c6 {
+  padding: 0 42rpx;
+}
+.page .group_5 .section_3 .group_6 .text_4.data-v-4cedc0c6 {
+  color: #000000;
+  font-size: 31.34rpx;
+  font-family: Adobe Heiti Std;
+  line-height: 30rpx;
+}
+.page .group_5 .section_3 .group_6 .group_7.data-v-4cedc0c6 {
+  margin-right: 14rpx;
+}
+.page .group_5 .section_3 .group_6 .group_7 .text_5.data-v-4cedc0c6 {
+  color: #999999;
+  font-size: 22rpx;
+  font-family: Adobe Heiti Std;
+  line-height: 20.66rpx;
+}
+.page .group_5 .section_3 .group_6 .group_7 .image_2.data-v-4cedc0c6 {
+  width: 9.34rpx;
+  height: 20rpx;
+}
+.page .group_5 .section_3 .equal-division_2.data-v-4cedc0c6 {
+  padding: 0 21.34rpx;
+}
+.page .group_5 .section_3 .equal-division_2 .group_8.data-v-4cedc0c6 {
+  flex: 1 1 132.76rpx;
+}
+.page .group_5 .section_3 .equal-division_2 .group_8 .image_3.data-v-4cedc0c6 {
+  width: 64rpx;
+  height: 64rpx;
+}
+.page .group_5 .section_3 .equal-division_2 .group_8 .font_4.data-v-4cedc0c6 {
+  font-size: 26rpx;
+  font-family: Adobe Heiti Std;
+  line-height: 24.66rpx;
+  color: #000000;
+}
+.page .group_5 .section_3 .equal-division_2 .equal-division-item_2.data-v-4cedc0c6 {
+  padding: 2.66rpx 10.66rpx 10.66rpx;
+}
+.page .group_5 .section_3 .text_6.data-v-4cedc0c6 {
+  margin-left: 46rpx;
+}
+.page .group_5 .section_3 .equal-division_3.data-v-4cedc0c6 {
+  align-self: stretch;
+}
+.page .group_5 .section_3 .equal-division_3 .group_10.data-v-4cedc0c6 {
+  flex: 1 1 133.34rpx;
+}
+.page .group_5 .section_3 .equal-division_3 .group_10 .image_4.data-v-4cedc0c6 {
+  margin-left: 12rpx;
+  width: 80rpx;
+  height: 80rpx;
+  margin-bottom: 15rpx;
+}
+.page .group_5 .section_3 .equal-division_3 .group_10 .text_7.data-v-4cedc0c6 {
+  margin-left: 10.66rpx;
+}
+.page .group_5 .section_3 .equal-division_3 .equal-division-item_3.data-v-4cedc0c6 {
+  padding: 5.34rpx 9.34rpx 12rpx 13.34rpx;
+}
+.page .group_5 .section_3 .group_9.data-v-4cedc0c6 {
+  padding: 0 20rpx;
+}
+.page .group_5 .section_4.data-v-4cedc0c6 {
+  margin-top: 23.34rpx;
+  padding: 28rpx 0 32rpx;
+  background-color: #ffffff;
+  border-radius: 46.66rpx;
+}
+.page .group_5 .section_4 .text_8.data-v-4cedc0c6 {
+  margin-left: 46rpx;
+}
+.page .group_5 .section_4 .grid.data-v-4cedc0c6 {
+  padding: 0 21.34rpx;
+  height: 229.34rpx;
+  display: grid;
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  row-gap: 0;
+  -webkit-column-gap: 0;
+          column-gap: 0;
+}
+.page .group_5 .section_4 .grid .grid-item.data-v-4cedc0c6 {
+  padding: 12rpx 5.34rpx;
+}
+.page .group_5 .section_4 .grid .grid-item .image_5.data-v-4cedc0c6 {
+  width: 48rpx;
+  height: 48rpx;
+}
+.page .group_5 .font_5.data-v-4cedc0c6 {
+  font-size: 28.66rpx;
+  font-family: Adobe Heiti Std;
+  line-height: 27.34rpx;
+  color: #000000;
+}
+.page .group_5 .button.data-v-4cedc0c6 {
+  align-self: center;
+  margin-top: 42rpx;
+}
+.page .group_5 .button .text_9.data-v-4cedc0c6 {
+  color: #ffffff;
+  font-size: 43.34rpx;
+  font-family: Adobe Heiti Std;
+  line-height: 40rpx;
+}
+.page .group_5 .text-wrapper.data-v-4cedc0c6 {
+  padding: 26.66rpx 0;
+  background-color: #009254;
+  border-radius: 46.66rpx;
+  width: 426rpx;
+}
+.page .font.data-v-4cedc0c6 {
+  font-size: 23.34rpx;
+  font-family: Adobe Heiti Std;
+  line-height: 22rpx;
+  color: #000000;
+}
+.page .section_5.data-v-4cedc0c6 {
+  padding: 26rpx 0 32rpx;
+  flex: 1 1 150rpx;
+  background-color: #ffffff;
+  height: 128.66rpx;
+}
+.page .section_5 .image_6.data-v-4cedc0c6 {
+  width: 60.66rpx;
+  height: 42rpx;
+}
+.page .section_5 .text_10.data-v-4cedc0c6 {
+  color: #1aaf64;
+}
+.page .section_6.data-v-4cedc0c6 {
+  padding: 34rpx 0 32rpx;
+  flex: 1 1 150rpx;
+  background-image: url("https://ide.code.fun/api/image?token=6560094f28456c0011656844&name=b8835c56e8b970466bd9baa2a3819f6d.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 129.34rpx;
+}
+.page .section_6 .image_10.data-v-4cedc0c6 {
+  width: 60rpx;
+  height: 30rpx;
+}
+.page .section_6 .text_11.data-v-4cedc0c6 {
+  line-height: 16rpx;
+}
+.page .font_6.data-v-4cedc0c6 {
+  font-size: 18.66rpx;
+  font-family: Adobe Heiti Std;
+  line-height: 16.66rpx;
+  color: #4d4c4c;
+}
+.page .section_7.data-v-4cedc0c6 {
+  flex: 1 1 150rpx;
+  padding: 30rpx 0 32rpx;
+  background-image: url("https://ide.code.fun/api/image?token=6560094f28456c0011656844&name=b8835c56e8b970466bd9baa2a3819f6d.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 129.34rpx;
+}
+.page .section_7 .image_7.data-v-4cedc0c6 {
+  width: 51.34rpx;
+  height: 37.34rpx;
+}
+.page .section_7 .text_12.data-v-4cedc0c6 {
+  line-height: 17.34rpx;
+}
+.page .section_7 .image_8.data-v-4cedc0c6 {
+  width: 47.34rpx;
+  height: 37.34rpx;
+}
+.page .section_7 .text_13.data-v-4cedc0c6 {
+  line-height: 16rpx;
+}
+.page .section_8.data-v-4cedc0c6 {
+  padding: 32rpx 36.66rpx;
+  flex: 1 1 150rpx;
+  background-image: url("https://ide.code.fun/api/image?token=6560094f28456c0011656844&name=b8835c56e8b970466bd9baa2a3819f6d.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 129.34rpx;
+}
+.page .section_8 .image_9.data-v-4cedc0c6 {
+  margin-left: 8.66rpx;
+  width: 60.66rpx;
+  height: 34rpx;
+}
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.mapper.CartMaapper">
+    <insert id="addcart" parameterType="String">
+        insert into cart(BID,DID,num,time,price,SID) values (#{BID},#{DID},1,now(),(select Dprice from supply where DrugID=#{DID} and SID=#{SID}),#{SID})
+    </insert>
+
+    <delete id="removecart" parameterType="String">
+        delete from cart where BID=#{BID} and DID=#{DID} and SID=#{SID};
+    </delete>
+
+    <delete id="emptycart" parameterType="String">
+        delete from cart where BID=#{BID};
+    </delete>
+
+    <update id="addnum" parameterType="String">
+        update cart set num=num+1 where BID=#{BID} and DID=#{DID} and SID=#{SID}
+    </update>
+
+    <update id="subnum" parameterType="String">
+        update cart set num=num-1 where BID=#{BID} and DID=#{DID} and SID=#{SID};
+    </update>
+
+    <select id="getcart" parameterType="String" resultType="com.example.demo.entity.Cart">
+        select * from cart where BID=#{BID};
+    </select>
+
+
+</mapper>
